@@ -1,11 +1,10 @@
-# Clasificación de Dígitos MNIST con Redes Neuronales Convolucionales
+# Clasificación de Imágenes con Redes Neuronales Convolucionales
 
 ### Descripción de la tarea
-Este proyecto demuestra la implementación y análisis de una Red Neuronal Convolucional (CNN) pre-entrenada para la clasificación de dígitos MNIST. El cuaderno incluye varios ejercicios para comprender y visualizar el comportamiento del modelo, incluyendo visualización de kernels, operaciones de convolución y predicciones en imágenes personalizadas.
+Uso y análisis de una Red Neuronal Convolucional (CNN) pre-entrenada para la clasificación de imágenes.
 
 ### Características
-- Carga y uso de un modelo MNIST pre-entrenado
-- Evaluación del modelo en datos de prueba
+- Carga y uso de un modelo pre-entrenado en formato .h5
 - Visualización y análisis de kernels
 - Visualización de operaciones de convolución
 - Capacidades de predicción en imágenes personalizadas
@@ -17,16 +16,7 @@ Este proyecto demuestra la implementación y análisis de una Red Neuronal Convo
 - Matplotlib
 - Requests
 
-### Uso
-1. Ejecutar las celdas del cuaderno en secuencia
-2. El modelo se descargará automáticamente desde Hugging Face
-3. Seguir los ejercicios en el cuaderno para:
-   - Visualizar los kernels del modelo
-   - Analizar las operaciones de convolución
-   - Realizar predicciones en imágenes personalizadas
-
-### Ejercicios Incluidos
-1. Visualización de al menos 10 kernels del modelo pre-entrenado
-2. Visualización de las salidas de la convolución con los kernels
-3. Predicciones en al menos 10 imágenes propias
-4. Repetición del análisis de convolución con imágenes personalizadas
+### Ejercicios
+1. Mostrar los valores y visualizar al menos 10 kernels del modelo pre-entrenado
+2. Calcular las predicciones de al menos 10 imágenes propias (adjuntar evidencia del proceso de adquisición de imágenes). Aplicar y explicar el tratamiento de imágenes necesario para adecuar los datos de entrada al modelo.
+3. Mostrar las salidas obtenidas al aplicar la convolución de dos imagenes con los kernels del ejercicio 1.
